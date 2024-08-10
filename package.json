@@ -1,18 +1,18 @@
 {
-  "name": "q2",
+  "name": "q2-web-app",
   "version": "1.0.0",
-  "main": "numOfVisits.js",
-  "dependencies": {
-    "cookie": "^0.4.1",
-    "cookie-parser": "^1.4.6",
-    "cookie-signature": "^1.0.6"
-  },
-  "devDependencies": {},
+  "description": "A web application that tracks the number of visits and the last visit time using cookies.",
+  "main": "Q2.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node Q2.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "express": "^4.18.2",
+    "cookie-parser": "^1.4.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Asall11111",
+  "license": "ISC"
 }
