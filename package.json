@@ -2,9 +2,9 @@
   "name": "q2-web-app",
   "version": "1.0.0",
   "description": "A web application that tracks the number of visits and the last visit time using cookies.",
-  "main": "Q2.js",
+  "main": "numOfVisits..js",
   "scripts": {
-    "start": "node Q2.js"
+    "start": "node numOfVisits.js"
   },
   "dependencies": {
     "express": "^4.18.2",
